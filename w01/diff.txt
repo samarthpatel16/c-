@@ -1,0 +1,14 @@
+In line number 17 of your output:
+The output should be:
+Student ID# 123456789
+             ^
+But your output is: 
+Student ID# 150061208
+             ^
+
+Unmatched character details:
+The character in column 14 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [5] ASCII code(53)
+

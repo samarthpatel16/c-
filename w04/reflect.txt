@@ -1,0 +1,143 @@
+
+/*
+   *****************************************************************************
+               <assessment name example: Workshop - #4 (Part-1)>
+    Name   :samarth patel
+    ID     :150061208
+    Email  :sspatel65@myseneca.ca
+    Section:btp100NBB
+
+    Authenticity Declaration:
+    I declare this submission is the result of my own work and has not been
+    shared with any other student or 3rd party content provider. This submitted
+    piece of work is entirely of my own creation.
+    *****************************************************************************
+*/
+
+
+
+1. Selection is an extremely important concept in programming. Without Selection it would not be imaginable to get various ways for programs, and the answers we make would not be practical. 
+Following is an example where I have used selection.
+
+if (o!=0)
+    {
+        printf("\nPick some ORANGES... how many did you pick? : ");
+        scanf("%d",&op);
+
+        int op1=o;
+        while (o!=0)
+        {
+
+            if (op<=0)
+            {
+                printf("ERROR: You must pick at least 1!");
+            }
+            if (op>op1)
+            {
+                printf("You picked too many... only %d more ORANGE(S) are needed.",o);
+            }
+            if (op<op1 && op>0)
+            {
+
+                o=o-op;
+                if (o==0)
+                {
+                    printf("Great, that's the oranges done!\n");
+                    break;
+                }
+                printf("Looks like we still need some ORANGES...");
+            }
+            printf("\nPick some ORANGE... how many did you pick? : ");
+            scanf("%d",&op);
+        }
+
+    }
+
+
+    if (p!=0)
+    {
+        printf("\nPick some PEARS... how many did you pick? : ");
+        scanf("%d",&pp);
+
+        int  pp1=p;
+        while (p!=0)
+        {
+
+            if (pp<=0)
+            {
+                printf("ERROR: You must pick at least 1!");
+            }
+            if (pp>pp1)
+            {
+                printf("You picked too many... only %d more PEAR(S) are needed.",p);
+            }
+            if (pp<pp1 && pp>0)
+            {
+                p=p-pp;
+                if (p==0)
+                {
+                    printf("Great, that's the pears done!\n");
+                    break;
+                }
+                printf("Looks like we still need some PEARS...");
+
+            }
+            printf("\nPick some PEARS... how many did you pick? : ");
+            scanf("%d",&pp);
+        }
+    }
+
+Selection permits there to be more than one way for a program. Numerous arrangements highlight a few decisions or choices.
+
+
+2. Using conditional statement under another conditional statement is called nesting.
+Nesting construct happens when we include one construct of programming into other.
+
+For example
+
+1. if (pp<pp1 && pp>0)
+            {
+                p=p-pp;
+                if (p==0)
+                {
+                    printf("Great, that's the pears done!\n");
+                    break;
+                }
+
+2. while (p!=0)
+        {
+
+            if (pp<=0)
+            {
+                printf("ERROR: You must pick at least 1!");
+            }
+
+
+Here there is a first condition. The other operations will only accour if the first condition will be satisfied. Here if (pp<pp1 && pp>0) would be true then and then the program will do other steps.
+
+
+
+3. My favourite iteration construct is while construct. This is because it is very simple and east to implement as well as understand. In for loop we need to give the condition, the increment decrement and the initialization in the same line whereas the do while loop will execute at least one time.
+
+Example:
+while (t<0)
+    {
+        printf("ERROR: Value must be 0 or more.\n");
+        printf("How many TOMATOES do you need? : ");
+        scanf("%d",&t);
+    }
+
+     printf("\nHow many CABBAGES do you need? : ");
+    scanf("%d",&c);
+
+    while (c<0)
+    {
+        printf("ERROR: Value must be 0 or more.\n");
+        printf("How many CABBAGES do you need? : ");
+        scanf("%d",&c);
+    }
+
+
+
+
+

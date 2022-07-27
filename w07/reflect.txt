@@ -1,0 +1,20 @@
+
+
+/*
+   *****************************************************************************
+               <assessment name example: Workshop - #7 (Part-2)>
+    Name   :samarth patel
+    ID     :150061208
+    Email  :sspatel65@myseneca.ca
+    Section:btp100NBB
+
+    Authenticity Declaration:
+    I declare this submission is the result of my own work and has not been
+    shared with any other student or 3rd party content provider. This submitted
+    piece of work is entirely of my own creation.
+    *****************************************************************************
+*/
+
+
+
+1. The benefits of utilizing user define data type is that they add the capacity to self-archive your data structures. The advantages are that we can adjust the data type as indicated by our inclination. utilizing the user defined data type can permit us to report the data type and the documentation of the task and programming effectively on the grounds that a data type is defined by us, and the documentation of the user defined data type is simple since it is being utilized by the inclination of the user.2. In the struct known as gameInfo, we can add a variable for the history of the game. After that we generate arrays for the history to store those values in that array. Then we can iterate a loop by using conditional statements in order to get the desired result.3. The most troublesome aspect was to set conditions in the do-while loop. These were if conditions. Like when there is no bomb, we have decrease moves except for the lives is same and a lot more conditions in other cases. Also, I need to think a great deal for moving Character image as per our feedback. That part took a ton of time. I left these parts fragmented and finished rest of my code. Then, taking a rest of 1 day some way or another I got thought for utilizing for loop for moving person image and connected all conditions in my mind.

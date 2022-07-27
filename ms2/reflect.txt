@@ -1,0 +1,31 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 2
+Full Name  :Samarth Patel
+Student ID#:150061208
+Email      :sspatel65@myseneca.ca
+Section    :btp100NBB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+
+1. The elements that should be considered while naming a module is that on the off chance that we make another information type inside that module, it will be named after that information type as we did in this task, we made a recreation of a clinic so we named the module as clinic.h. It is a decent practice to recognize a library's header and source document utilizing a similar name so later we probably won't become befuddled about where we put the execution of the functions we announced.  It is essential for a source and header file to have a similar name to show their indistinguishable relationship. This is on the grounds that a source file is an execution of the header file. The header files contains the general meaning of functions while the source file contains the implementations.ie clinic.h characterizes functions for the facility work and clinic.c does the genuine execution.
+
+
+
+2. We have these two modules for two totally various purposes. The main module core.h contains the helper functions which we could require in the entire assignment, though the subsequent one is the clinic.h where we characterize our data types for phone, person, and clinic and functions to work with those data types. To that end we didn't consolidate those into a solitary module. The clinic module then again contains functions that handle usefulness connected with the clinic ie adding patients.
+This aides in partition of different parts of the framework and need for utilize simply requires remembering for the necessary file. It is a to Have a solitary unit
+awful practice which might prompt the entire framework breaking assuming that there is an issue in any of the functions.
+
+
+
+3. They are parted into header file and execution file since when we need to utilize its substance then we need to incorporate that header file in the file where we need to utilize those functions or data types. The header contains just the prototypes of the functions. If we consolidate these files, at whatever point we'll have to add that file we will incorporate that multitude of functions with their bodies on different occasions which could cause an issue for some situation. Having parted header and execution files further develops the form season of the files while assembling. This is very important to the engineer. It moreover makes it simple to interface in other source files without alluding to the execution in a more straightforward manner other than the article arranged importation.
+It likewise isolates the meaning of functions from their execution subsequently bundling them as modules which can be utilized by incorporation into different files
+This is a compositionally strong approach to organizing our c code. The clinic.c file contains execution of functions that are characterized in our clinic.h
+file. The two make up the clinic module. Importing clinic.h file into any file gives admittance to the functions characterized and their implementation. This helps with
+keeping away from reiteration and utilizing usefulness that is now characterized somewhere else as opposed to revamping it for that specific setting.

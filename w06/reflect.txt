@@ -1,0 +1,56 @@
+
+/*
+   *****************************************************************************
+               <assessment name example: Workshop - #6 (Part-2)>
+    Name   :samarth patel
+    ID     :150061208
+    Email  :sspatel65@myseneca.ca
+    Section:btp100NBB
+
+    Authenticity Declaration:
+    I declare this submission is the result of my own work and has not been
+    shared with any other student or 3rd party content provider. This submitted
+    piece of work is entirely of my own creation.
+    *****************************************************************************
+*/
+
+
+1. Parallel arrays are utilized to store and gathering the connected information. Each record of each array relates to a specific gathering or individual.
+
+
+
+For e.g., Consider 2 array:
+
+    double cost[10]; 
+   
+    int p[10];
+
+
+Here at index 0 both the arrays store information of one item.
+
+We can utilize key to bunch the information. For e.g., at key 0 both the arrays contain data about item 1.
+
+In this way key is significant and utilized as list of exhibits to get the information.
+
+
+
+
+2. It is common practice to iterate arrays initializing the iterator variable to zero and not to a value of one because when an array is stored in the memory it is stored initializing  from value 0. 
+
+For eg:
+
+double cost[10]; 
+   
+ int p[10];
+
+
+To access name of 1st cost we have to code like:
+cost [0];
+Thus, when we start from zero it would be more convenient and easier to have control of each and every element of an array.
+
+
+3. An array is an approach to orchestrating things in lines and segments. At the point when you purchase things like a bunch of treats, a pack of toy vehicles, or even a container of eggs, the things in the bundle are arranged to make an array. An array generally has lines and segments. The lines are the even lines that go from left to right. I would give him around 5-6 chocolates and would request that he keep every chocolate in an alternate part/room of the house. After some time, I would request that he bring that multitude of chocolates again to me. He would need to go to each space to bring those chocolates. Then, at that point, I would give him a little box for certain openings and would request that he store the chocolates inside it. Again, I will request that he carry those chocolates to me. He will absolutely get every one of the chocolates with practically no difficulty. What's more could ask him, "Which one was simpler bud?".
+
+
+
+

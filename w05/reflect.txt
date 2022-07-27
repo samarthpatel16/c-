@@ -1,0 +1,111 @@
+/*
+   *****************************************************************************
+               <assessment name example: Workshop - #5 (Part-2)>
+    Name   :samarth patel
+    ID     :150061208
+    Email  :sspatel65@myseneca.ca
+    Section:btp100NBB
+
+    Authenticity Declaration:
+    I declare this submission is the result of my own work and has not been
+    shared with any other student or 3rd party content provider. This submitted
+    piece of work is entirely of my own creation.
+    *****************************************************************************
+*/
+
+
+
+1. (a) Using switch case selection constructs :
+ 
+switch(month)
+{
+case 1: printf("JAN");
+       break;
+case 2: printf("FEB");
+       break;
+case 3: printf(“MAR”);
+	      break;
+ default:
+  printf("");
+}
+
+
+(b) Using else-if  selection constructs:
+  
+ if (month == 1)
+{
+
+           printf("JAN");
+
+       else if (month == 2)
+	{
+
+           printf("FEB");
+
+		else if (month == 3)
+		{
+
+           		printf("MAR");
+
+		}
+
+	}
+
+}
+
+
+
+
+2. 
+The 3 types of iteration constructs :
+  
+* while loop
+* do while
+* for loop
+
+While and do-while both are good options if we want to validate a particular object because we needed to traverse through the valid month integers to check if the input value
+is one of the valid values. 
+
+For example:
+
+
+        while (mr < 0.0 || mr>5.0)
+
+        {
+            printf("      ERROR: Rating must be between 0.0 and 5.0 inclusive!");//printing the //messsage
+
+            printf("\n   Morning rating (0.0-5.0): ");
+
+            scanf("%f", &mr);
+
+        }
+
+        ms = ms + mr;//changing the value of ms
+
+
+
+        printf("   Evening rating (0.0-5.0): ");
+
+        scanf("%f", &er);
+
+
+
+        while (er < 0.0 || er>5.0)
+
+        {
+
+            printf("      ERROR: Rating must be between 0.0 and 5.0 inclusive!");//printing the //messsage
+
+            printf("\n   Evening rating (0.0-5.0): ");
+
+            scanf("%f", &er);
+
+        }
+
+        es = es + er; //changing the value of es
+
+
+
+3. To test and debug my program I generally use one of the online integrated learning environment known as cs50 ide. I set several breakpoints wherever necessary and tried to run the program again and again by closely examining the values of variables and other calculations. This is a best way to run your program line to line and keep a watch on the values and calculations. By performing several steps, I finally was able to locate the error and then debug my program.
+
+
